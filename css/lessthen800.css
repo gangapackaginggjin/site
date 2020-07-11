@@ -1,0 +1,36 @@
+#slogan h3, #slogan h1.only
+{
+    font-size: 1.714em;
+    color: #5d5c5c;
+    line-height: 2em;
+}
+.shadowBg, body, .stretched-layout .bgWrapper
+{
+    background: none;
+}
+.wrapper
+{
+    margin: 0 auto;
+}
+#sidebar
+{
+    text-align: center;
+}
+#primary
+{
+    width: 250px;
+}
+.last-news .box-post .news_excerpt
+{
+    display: none !important;
+}
+
+
+.portfolio-filterable #primary
+{
+    width: auto;
+}
+#content .accordion-slider
+{
+    display: none !important;
+}

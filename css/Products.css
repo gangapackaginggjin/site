@@ -1,0 +1,261 @@
+﻿/* layouts */
+.layout-sidebar-left #sidebar, .layout-sidebar-right #primary
+{
+    float: left;
+}
+.layout-sidebar-right #sidebar, .layout-sidebar-left #primary
+{
+    float: right;
+}
+.layout-sidebar-no #primary
+{
+    float: left;
+    width: 100%;
+}
+.home #content
+{
+    padding-top: 3em;
+}
+/* icon text */
+#sidebar .icon-text
+{
+    clear: both;
+}
+#sidebar .icon-text img
+{
+    float: left;
+    padding-top: 6px;
+}
+#sidebar .icon-text h3, #sidebar .icon-text p
+{
+    width: 205px;
+    float: right;
+    margin: 0;
+    clear: none;
+}
+#sidebar .icon-text p
+{
+    padding-top: 3px;
+}
+/* featured projects */
+.featured-projects-widget img
+{
+    padding: 5px;
+    border: 1px solid #B2B0B0;
+    width: 208px;
+    height: 168px;
+    margin-bottom: 0;
+}
+.featured-projects-widget p.categories
+{
+    margin-top: 0;
+    font-size: 0.85em;
+}
+.featured-projects-widget h5
+{
+    margin-bottom: 0;
+    line-height: 1.6em;
+    font-size: 0.85em;
+    font-weight: bold;
+}
+
+
+.thumb-project
+{
+    padding: 0;
+    margin: 0;
+}
+.thumb-project a
+{
+    padding: 0;
+    margin: 0;
+}
+.thumb-project img
+{
+    border: 1px solid #acabab;
+    padding: 3px;
+}
+/**?
+.home #primary .hentry, #primary.hentry
+{
+    margin-bottom: 0;
+    width: 100%;
+}
+.hentry
+{
+    margin-bottom: 40px;
+    position: relative;
+}
+
+/*testimonials*/
+.testimonials-list
+{
+    margin-bottom: 0;
+    padding: 25px 0;
+}
+.testimonials-list span.title
+{
+    font-size: 1.286em;
+    color: #464545;
+    display: block;
+}
+
+/*.testimonials-list .the-post
+{
+    padding: 20px 0 0 35px;
+    margin-left: 150px;
+}*/
+.testimonials-list .the-post p
+{
+    margin: 0;
+    color: #585555;
+    font-family: 'Droid Sans' , sans-serif !important;
+    font-size: 0.85em;
+}
+
+/* ====================== START WIDGETS ====================== */
+.widget
+{
+    margin-bottom: 30px;
+}
+.widget h2, .widget h3
+{
+    margin-bottom: 20px;
+}
+
+/* recent posts */
+.recent-post
+{
+    margin-top: 20px;
+}
+.recent-post div.link
+{
+    display: block;
+    height: 77px;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+.recent-post div.link:last-child
+{
+    margin-bottom: 0;
+}
+.recent-post .thumb-img
+{
+    float: left;
+    margin-right: 10px;
+}
+
+
+.recent-post p, .recent-post small
+{
+    color: #656262;
+}
+.recent-post p
+{
+    margin: 0;
+    line-height: 22px;
+}
+/* last news */
+.last-news
+{
+    width: 100%;
+}
+.last-news .box-post
+{
+    margin-bottom: 30px;
+    position: relative;
+}
+.last-news .box-post.thumbnail
+{
+    min-height: 96px;
+}
+#footer .last-news .box-post
+{
+    margin-bottom: 0px;
+}
+.last-news h2
+{
+    font-size: 1em;
+    font-weight: normal;
+    color: #666;
+}
+.last-news .box-post-thumb
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.last-news img
+{
+    width: 86px;
+    height: 86px;
+}
+body.image-square-style .last-news img
+{
+    padding: 3px !important;
+    border: 1px solid #d7d2d2;
+    float: none;
+}
+.last-news .box-post.thumbnail .box-post-body
+{
+    margin-left: 110px;
+}
+.last-news a.title
+{
+    color: #000 !important;
+    text-transform: uppercase;
+    font-size: 0.857em;
+    line-height: 1.7em;
+}
+.last-news a.title:hover
+{
+    color: #787878 !important;
+}
+.image-sphere-style .last-news a.title
+{
+    padding-top: 10px;
+}
+
+.last-news a.title, .last-news .meta
+{
+    display: block;
+}
+.last-news .box-post .news_excerpt
+{
+    height: 50px;
+    display: block;
+    margin-bottom: -4px;
+}
+
+.last-news p.meta
+{
+    padding: 0;
+    margin-top: 8px;
+}
+.last-news p.meta span.date, .last-news p.meta span.author
+{
+    color: #656363;
+    position: static;
+    display: block;
+    line-height: 1.5em;
+    height: auto;
+    margin: 0;
+    font-size: 0.8em;
+    padding-left: 20px;
+    background: no-repeat left center;
+}
+.last-news p.meta span.date
+{
+    height: 14px;
+    width: 95px;
+    float: left;
+    background-image: url('images/time-icon.png');
+}
+.last-news p.meta span.author
+{
+    height: 14px;
+    width: 100px;
+    float: left;
+    background-image: url('images/user-icon.png');
+}

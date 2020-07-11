@@ -1,0 +1,246 @@
+
+
+/* ====================== START MAIN STRUCTURE ====================== */
+/* ==== Widths, heights, floats and margins of all basic sections === */
+
+#nav
+{
+    float: right;
+}
+#slogan
+{
+    margin: 2em 0;
+}
+
+
+/*#primary
+{
+    width: 100%;
+}*/
+
+
+.extra-content
+{
+    padding: 0 20px 30px;
+    clear: both;
+}
+#content .extra-content
+{
+    padding: 0 0 30px;
+}
+
+
+.layout-sidebar-no #primary
+{
+    float: left;
+    width: 100%;
+}
+.home #content
+{
+    padding-top: 3em;
+}
+/*====================== END MAIN STRUCTURE ====================== */
+
+
+body h5, body h6
+{
+    font-family: "Droid Sans" ,serif !important;
+}
+
+#sidebar
+{
+    width: 250px;
+}
+
+.layout-sidebar-right #sidebar, .layout-sidebar-left #primary
+{
+    float: left;
+}
+
+.home #content
+{
+    padding-top: 2em;
+}
+#content
+{
+    padding: 1em 20px 30px;
+}
+#content #slogan
+{
+    padding-top: 0;
+}
+#sidebar h3
+{
+    font-size: 1.71em;
+}
+#sidebar a
+{
+    color: #090807;
+}
+#sidebar .widget ul
+{
+    font-size: 13px;
+    list-style: none outside none;
+    margin: 0;
+}
+#sidebar .widget a
+{
+    color: #615c5c;
+}
+#sidebar .widget a:hover
+{
+    color: #000;
+}
+/* layouts */
+.layout-sidebar-left #sidebar, .layout-sidebar-right #primary
+{
+    float: left;
+}
+.layout-sidebar-right #sidebar, .layout-sidebar-left #primary
+{
+    float: right;
+}
+.layout-sidebar-no #primary
+{
+    float: left;
+    width: 100%;
+}
+
+.image-square-style #comments img.avatar
+{
+    border: 4px solid #d7d7d7;
+}
+.image-sphere-style #comments img.avatar
+{
+    border: 0 none;
+}
+#commentform img.avatar
+{
+    margin: 0;
+}
+.widget
+{
+    margin-bottom: 30px;
+}
+.widget h2, .widget h3
+{
+    margin-bottom: 20px;
+}
+.more_projects
+{
+    margin-bottom: 10px;
+}
+.recent-post
+{
+    margin-top: 20px;
+}
+.recent-post div.link
+{
+    display: block;
+    font-size: 1.2em;
+    height: 77px;
+    margin-bottom: 2em;
+}
+.recent-post div.link:last-child
+{
+    margin-bottom: 0;
+}
+.recent-post .thumb-img
+{
+    float: left;
+    margin-right: 10px;
+}
+
+.featured-projects-widget img
+{
+    /*   border: 1px solid #b2b0b0;     height: 168px;     margin: 15px;     padding: 5px;*/ /*width: 208px;*/
+}
+.featured-projects-widget span
+{
+    margin: 15px;
+    padding: 5px;
+    width: 208px;
+}
+
+.featured-projects-widget p.categories
+{
+    font-size: 0.85em;
+    margin-top: 0;
+}
+.featured-projects-widget h5
+{
+    font-size: 0.85em;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-bottom: 0;
+}
+
+.testimonials-list
+{
+    margin-bottom: 0;
+    padding: 25px 0;
+}
+.testimonials-list .thumb-testimonial
+{
+    float: left;
+    position: relative;
+    text-align: left;
+    width: 143px;
+}
+.testimonials-list .thumb-testimonial img
+{
+    height: 133px;
+    margin-bottom: 0;
+    width: 133px;
+}
+.image-square-style .testimonials-list .thumb-testimonial img
+{
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+.testimonials-list .thumb-testimonial p
+{
+    background-color: #fff;
+    clear: both;
+    padding: 10px 10px 0;
+    text-align: right;
+}
+.testimonials-list .name-testimonial
+{
+    line-height: 1.5em;
+    margin: 0;
+}
+.testimonials-list.no-thumb .thumb-testimonial
+{
+    height: 40px;
+    width: 110px;
+}
+.testimonials-list.no-thumb .thumb-testimonial p.name-testimonial
+{
+    bottom: auto;
+    left: 0;
+    top: 0;
+}
+.testimonials-list span.title
+{
+    color: #464545;
+    display: block;
+    font-size: 1.286em;
+}
+/*.testimonials-list .the-post
+{
+    padding: 2% 0 0 2%;
+}
+.testimonials-list.no-thumb .the-post
+{
+    margin-left: 115px;
+}
+*/
+.testimonials-list .the-post p
+{
+    color: #a6a4a4;
+    font-family: "Droid Sans" ,sans-serif !important;
+    margin: 0;
+    font-size: medium;
+}
+
